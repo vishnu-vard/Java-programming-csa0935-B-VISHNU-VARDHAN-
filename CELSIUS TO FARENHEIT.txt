@@ -1,0 +1,14 @@
+import java.util.*;
+class Celsius
+{
+    public static void main(String arg[])
+     {
+       double f;
+       int c;
+       Scanner sc=new Scanner(System.in);
+       System.out.println("Enter celsius scale:");
+       c=sc.nextInt();
+       f=[c*(9/5)]+32;
+       System.out.println("Fahrenheit:"+f);
+     }
+}
