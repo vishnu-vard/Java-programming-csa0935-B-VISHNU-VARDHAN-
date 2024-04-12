@@ -1,0 +1,13 @@
+import java.util.*;
+class Simpleintrest
+{
+public static void main(String arg[])
+{
+int p=4000;
+int n=15;
+int r=2;
+double si;
+si=p*n*r/100;
+System.out.println("simple intrest is:"+si);
+}
+}

@@ -1,0 +1,11 @@
+class Cube
+{
+public static void main(String arg[])
+{
+double a=2.25,b,c;
+b=Math.pow(a,2);
+c=Math.pow(a,3);
+System.out.println("square:"+b);
+System.out.println("cube:"+c);
+}
+}

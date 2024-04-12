@@ -1,0 +1,28 @@
+import java.util.*;
+class Armstrong
+{
+public static void main(String arg[])
+{
+double rev=0;
+int rem;
+Scanner sc=new Scanner(System.in);
+System.out.println("enter number:");
+int n=sc.nextInt();
+int temp=n;
+while(n!=0)
+{
+rem=n%10;
+rev=rev+Math.pow(rem,3);
+n=n/10;
+}
+if(rev==temp)
+{
+System.out.println(temp+"is a armstrng number:");
+}
+else
+{
+System.out.println(temp+"is not a armstrng number:");
+}
+}
+}
+

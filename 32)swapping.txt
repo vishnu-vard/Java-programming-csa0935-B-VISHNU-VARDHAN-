@@ -1,0 +1,15 @@
+import java.util.*;
+class Swap4
+{
+public static void main(String arg[])
+{
+double a=20.5;
+double b=23.8;
+double temp;
+temp=a;
+a=b;
+b=temp;
+System.out.println("swap of a:"+a);
+System.out.println("swap of b number:"+b);
+}
+}
