@@ -1,0 +1,24 @@
+import java.util.*;
+class Operators
+{
+public static void main(String arg[])
+{
+int a=200;
+if(a>0 && a<20)
+{
+System.out.println("teenage");
+}
+if(a>20 || a<40)
+{
+System.out.println("young");
+}
+if(a!=100)
+{
+System.out.println("oldage");
+}
+else
+{
+System.out.println("");
+}
+}
+}

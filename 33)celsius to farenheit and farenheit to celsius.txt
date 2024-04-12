@@ -1,0 +1,13 @@
+import java.util.*;
+class Celsius
+{
+public static void main(String arg[])
+{
+int c=20,f=40;
+double n,m;
+n=(c*(9/5))+32;
+m=(f-32)*5/9;
+System.out.println("celsius to farenheit is:"+n);
+System.out.println(" farenheit to celsius is:"+m);
+}
+}

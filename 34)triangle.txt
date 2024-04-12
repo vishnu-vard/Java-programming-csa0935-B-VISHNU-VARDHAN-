@@ -1,0 +1,11 @@
+import java.util.*;
+class Triangle
+{
+public static void main(String arg[])
+{
+int b=5,h=9;
+double area;
+area=(b*h)/2;
+System.out.println("area of triangle:"+area);
+}
+}

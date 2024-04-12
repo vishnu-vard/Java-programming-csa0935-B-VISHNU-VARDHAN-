@@ -1,0 +1,33 @@
+import java.util.*;
+class Luckyguess
+{
+public static void main(String arg[])
+{
+int a;
+System.out.println("enter number:1,2,3,4,5");
+Scanner sc=new Scanner(System.in);
+System.out.println("enter number:");
+a=sc.nextInt();
+switch(a)
+{
+case 1:
+System.out.println("won bike");
+break;
+case 2:
+System.out.println("won cash");
+break;
+case 3:
+System.out.println("won dress");
+break;
+case 4:
+System.out.println("won chocolate");
+break;
+case 5:
+System.out.println("won hearts");
+break;
+default:
+System.out.println("better luck next time:");
+break;
+}
+}
+}
