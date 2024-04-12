@@ -1,0 +1,45 @@
+import java.util.*;
+class Student1
+{
+int sum;
+double avg;
+int reg_no;
+String stu_name;
+int mark1;
+int mark2;
+int mark3;
+int mark4;
+int mark5;
+void get(int num,String name,int m1,int m2,int m3,int m4,int m5)
+{
+reg_no=num;
+stu_name=name;
+mark1=m1;
+ mark2=m2;
+ mark3=m3;
+ mark4=m4;
+ mark5=m5;
+}
+void calculate()
+{
+sum=(mark1+mark2+mark3+mark4+mark5);
+avg=sum/5;
+}
+void display()
+{
+System.out.println("mark1:"+mark1);
+System.out.println("mark2:"+mark2);
+System.out.println("mark3:"+mark3);
+System.out.println("mark4:"+mark4);
+System.out.println("mark5:"+mark5);
+System.out.println("sum of above marks:"+sum);
+System.out.println("average of above marks:"+avg);
+}
+public static void main(String arg[])
+{
+Student1 s1=new  Student1();
+s1.get(12334675,"swathi",100,90,99,89,98);
+s1.calculate();
+s1.display();
+}
+}

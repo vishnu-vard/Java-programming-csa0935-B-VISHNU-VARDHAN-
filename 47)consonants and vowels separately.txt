@@ -1,0 +1,29 @@
+import java.util.*;
+class Vodisplay
+{
+public static void main(String arg[])
+{
+String str;
+Scanner sc=new Scanner(System.in);
+System.out.println("enter the string:");
+str=sc.nextLine();
+char ch;
+String vowels="",conso="";
+int n=str.length();
+int i;
+for(i=0;i<n;i++)
+{
+ch=str.charAt(i);
+if(ch=='a' || ch=='e' || ch=='i' ||ch=='o' || ch=='u')
+{
+vowels=vowels+ch;
+}
+else
+{
+conso=conso+ch;
+}
+}
+System.out.println("vowels :"+vowels);
+System.out.println("consonants :"+conso);
+}
+}

@@ -1,0 +1,27 @@
+import java.util.*;
+class Specialchar
+{
+public static void main(String arg[])
+{
+Scanner sc=new Scanner(System.in);
+String str;
+System.out.println("enter string:");
+str=sc.nextLine();
+char ch;
+int n=str.length();
+int scount=0,count=0;
+for(int i=0;i<n;i++)
+{
+ch=str.charAt(i);
+if(ch>='a' && ch<='z' || ch>='A' && ch<='Z' || ch>='0' && ch<='9')
+{
+count++;
+}
+else
+{
+scount++;
+}
+}
+System.out.println("specialcharacters count:"+scount);
+}
+}
